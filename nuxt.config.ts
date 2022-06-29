@@ -1,6 +1,5 @@
 import { defineNuxtConfig } from 'nuxt'
 
-// https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
   build: {
     postcss: {
@@ -13,6 +12,6 @@ export default defineNuxtConfig({
     },
   },
   css: [
-    "~/assets/css/tailwind.css"
+    "~/assets/css/main.css"
   ],
 })
